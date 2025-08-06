@@ -9,3 +9,7 @@ The address of the recipient of any excess gas which is not used by `_lzsend` is
 Some tokens like `USDC` have different tokens on different chains. Make sure that all tokens either have the same decimals on all chains or are converted correctly. 
 
 [Example](https://solodit.cyfrin.io/issues/h-11-users-will-lose-funds-due-to-token-decimal-mismatches-across-chains-sherlock-lend-git)
+
+### Cross chain replay attack
+Even when a proper nonce is implemented to make sure each signature can only be used once, an attacker can reuse the message across different chains if the nonce's match and the message itself doesn't contain the chain Id (or the chain specific parameter can be entered arbitrary by the user) or any other value that ensures its chain specific. 
+[Example](https://solodit.cyfrin.io/issues/h-01-cross-chain-signature-replay-attack-due-to-user-supplied-domainseparator-and-missing-deadline-check-code4rena-next-generation-next-generation-git)

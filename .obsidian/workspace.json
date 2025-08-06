@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General errors and exploits.md",
+                "file": "Cross-Chain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General errors and exploits"
+              "title": "Cross-Chain"
             }
           }
         ],
@@ -185,10 +185,10 @@
   },
   "active": "a57872a448b49dbf",
   "lastOpenFiles": [
-    "Vaults.md",
-    "General errors and exploits.md",
     "Common external integrations.md",
+    "General errors and exploits.md",
     "Cross-Chain.md",
+    "Vaults.md",
     "AMM's.md",
     "L2's.md",
     "Lending.md",
