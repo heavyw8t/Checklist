@@ -1,4 +1,10 @@
-## Common bugs and exploits
+## Dexes
+
+### Missing slippage protection
+When liquidity is added to a pool or a user uses the pool to trade, they should always be able to set some sort of slippage protection, causing the transaction to revert in case they don't get at least a specified minimum amount of LP tokens or of the bought token.
+[Example](https://solodit.cyfrin.io/issues/m-15-addliquidity-and-decreaseliquidity-missing-slippage-protection-code4rena-particle-protocol-particle-protocol-git)
+
+## ERC-4626 (Vaults)
 
 ### Inflation attack
 When a new vault is created, the first depositor can be frontrun by an attacker who will deposit just enough so that the initial depositor's shares will be rounded down to 0, and the attacker can withdraw their one share, now also containing the victim's tokens. This can be mitigated by allowing users to pass a `minSharesOutParameter` or using "dead shares," which are placed in the vault during creation.
