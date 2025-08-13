@@ -1,5 +1,5 @@
 ## Multichain deployment
-### Are any addresses Hard coded
+### Are any addresses hard coded
 If any addresses (tokens, pools....) are hard coded and the protocol is deployed on different chains, the addresses will only be correct on one chain, leading to core functionalities failing. 
 [Example](https://solodit.cyfrin.io/issues/the-libweth-hardcodes-the-weth-address-which-makes-it-incompatible-on-the-to-deploy-l2-chain-codehawks-beanstalk-the-finale-git)
 
