@@ -9,6 +9,12 @@ When calling block.number, the approximate block number on Mainnet will be retur
 
 [Example](https://solodit.cyfrin.io/issues/incorrect-use-of-l1-blocknumber-on-arbitrum-cantina-none-uniswap-pdf)
 
+### Are the opcodes used supported by all chains?
+Not all opcodes that are supported on mainnet are supported on every L2. Use [this](https://www.evmdiff.com/features?feature=opcodes) to check if the used opcodes are supported on the chains the protocol will deploy to.
+
+[Example](https://solodit.cyfrin.io/issues/potential-push0-opcode-limitation-mixbytes-none-dia-markdown)
+
+
 ### General stuff
 ### Missing sequencer uptime check
 
