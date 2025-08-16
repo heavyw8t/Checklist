@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2's.md",
+                "file": "Solana.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L2's"
+              "title": "Solana"
             }
           }
         ]
@@ -171,11 +171,11 @@
   "active": "a57872a448b49dbf",
   "lastOpenFiles": [
     "General errors and exploits.md",
-    "Lending.md",
-    "L2's.md",
-    "Cross-Chain.md",
     "Common Protocol types.md",
     "Common external integrations.md",
+    "L2's.md",
+    "Lending.md",
+    "Cross-Chain.md",
     "Dexes.md",
     "Oracles.md",
     "Weird ERC20's.md",
