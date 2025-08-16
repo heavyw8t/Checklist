@@ -14,11 +14,23 @@ This is a useful checklist for any Whitehat that's out there keeping Web3 safe. 
 - [Common protocol types](https://github.com/heavyw8t/Checklist/blob/main/Common%20Protocol%20types.md)
 - [Weird ERC20's](https://github.com/heavyw8t/Checklist/blob/main/Weird%20ERC20's.md)
 
-## Other great resources
+## Other checklists
+- [Windhustlers Interoperbility checklist](https://github.com/windhustler/Interoperability-Protocol-Security-Checklist?tab=readme-ov-file)
+- [Solodit checklist](https://solodit.cyfrin.io/checklist)
+- []
+- []
 
+
+## Write-Ups
 ### Interesting write-ups
 
-### Other checklists
+- [Biggest bounty ever paid](https://medium.com/immunefi/wormhole-uninitialized-proxy-bugfix-review-90250c41a43a)
 
-### Generally useful stuff
 
+### [More great write-ups](https://github.com/sayan011/Immunefi-bug-bounty-writeups-list?utm_source=immunefi) 
+### [Even more great write-ups](https://blog.asymmetric.re/)
+
+## Generally useful stuff
+- [Solodit, the largest database of web3 audit findings](https://solodit.cyfrin.io/?i=HIGH%2CMEDIUM%2CLOW%2CGAS&maxf=&minf=&rf=alltime&sd=Desc&sf=Recency)
+- [Great courses for security researchers and devs](https://updraft.cyfrin.io/courses)
+- [Compare different L2's and Mainnet](https://www.evmdiff.com/)
