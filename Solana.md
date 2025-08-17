@@ -11,3 +11,4 @@ If the Token22 standard should be supported by the protocol, the extensions that
 // Rewrite this one
 ### Is there a check to prevent important accounts from accidental transferring their rent 
 Any important account that transfers sol somewhere in the flow of the protocol should have a check that it prevents it from sending too much funds and not containing enough rent to stop it from being garbage collected. 
+
