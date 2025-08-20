@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General errors and exploits.md",
+                "file": "Solana.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General errors and exploits"
+              "title": "Solana"
             }
           }
         ],
@@ -175,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -185,16 +186,17 @@
   },
   "active": "a57872a448b49dbf",
   "lastOpenFiles": [
-    "Lending.md",
+    "README.md",
+    "Solana.md",
+    "Weird ERC20's.md",
+    "Cross-Chain.md",
     "L2's.md",
     "General errors and exploits.md",
-    "Cross-Chain.md",
     "Common Protocol types.md",
     "Common external integrations.md",
+    "Lending.md",
     "Dexes.md",
     "Oracles.md",
-    "Weird ERC20's.md",
-    "Solana.md",
     "readme.md"
   ]
 }
