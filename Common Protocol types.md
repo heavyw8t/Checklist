@@ -4,6 +4,9 @@
 When liquidity is added to a pool or a user uses the pool to trade, they should always be able to set some sort of slippage protection, causing the transaction to revert in case they don't get at least a specified minimum amount of LP tokens or of the bought token.
 [Example](https://solodit.cyfrin.io/issues/m-15-addliquidity-and-decreaseliquidity-missing-slippage-protection-code4rena-particle-protocol-particle-protocol-git)
 
+### Is block.timestamp used for the deadline
+If a deadline protection is used for swaps and/or deposits, check that the protection actually works as intended. Sometimes protocols set the deadline as `block.timestamp` or `block.timestamp + x` , this offers no protection as the block.timestamp will always be the timestamp of the block the transaction is included in, and not the time at which the user initiates the swap. This can lead to users transaction either on purpose (Validators) or randomly being processed at an unfortunate time leading to losses for the user. 
+[Example](https://solodit.cyfrin.io/issues/m-02-blocktimestamp-use-in-dex-swap-deadlines-may-cause-poor-trading-pashov-audit-group-none-hyperhyper_2025-03-30-markdown)
 ## ERC-4626 (Vaults)
 
 ### Inflation attack
