@@ -16,3 +16,4 @@ Some tokens like `USDC` have different tokens on different chains. Make sure tha
 ### Cross chain replay attack
 Even when a proper nonce is implemented to make sure each signature can only be used once, an attacker can reuse the message across different chains if the nonce's match and the message itself doesn't contain the chain Id (or the chain specific parameter can be entered arbitrary by the user) or any other value that ensures its chain specific. 
 [Example](https://solodit.cyfrin.io/issues/h-01-cross-chain-signature-replay-attack-due-to-user-supplied-domainseparator-and-missing-deadline-check-code4rena-next-generation-next-generation-git)
+

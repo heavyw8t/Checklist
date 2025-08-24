@@ -33,3 +33,10 @@ Can a liquidation somehow result in bad debt remaining? If it's now economically
 In some cases, the health factor is calculated with the wrong values. For example, the collateral gets reduced, but the health factor is accidentally calculated with the old collateral value, or the collateral gets reduced, but then the health factor function itself reduces the collateral again in the calculation, leading to any call failing unless the user has way more collateral than required.
 
 [Example](https://code4rena.com/audits/2025-03-starknet-perpetual/submissions/S-591)
+
+## Staking
+
+### Does internal accounting match the actual balances?
+Since almost all staking protocols use some sort of slashing mechanism and all use a reward mechanism, it is important that these events are accurately reflected in the internal accounting. If the value used for example to un-delegate or re-delegate is not updated when the user/staker is slashed or receives rewards, a loss of funds can occur, either for the user/staker themselve or others. 
+
+[Example](https://code4rena.com/audits/2025-04-cabal-liquid-staking-token/submissions/F-185)
