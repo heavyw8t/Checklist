@@ -40,3 +40,8 @@ In some cases, the health factor is calculated with the wrong values. For exampl
 Since almost all staking protocols use some sort of slashing mechanism and all use a reward mechanism, it is important that these events are accurately reflected in the internal accounting. If the value used for example to un-delegate or re-delegate is not updated when the user/staker is slashed or receives rewards, a loss of funds can occur, either for the user/staker themselve or others. 
 
 [Example](https://code4rena.com/audits/2025-04-cabal-liquid-staking-token/submissions/F-185)
+
+### Can the unstaking or undelegegate cool down be reset for another user
+Protocols that implement some sort of cool down for re-delegeating, un-delegating or un-staking need to make sure that its not possible to donate a dust amount to a users position to reset their cool down and effectively lock their funds indefinitely. 
+
+[Example](https://solodit.cyfrin.io/issues/m-10-griefer-can-extend-period-of-higher-withdrawal-fees-code4rena-backd-backd-contest-git)
